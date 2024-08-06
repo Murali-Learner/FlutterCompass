@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
+import 'dart:math' as math;
 
 class CompassPainter extends CustomPainter {
   final double direction;
 
   CompassPainter(this.direction);
-
-  get math => null;
 
   @override
   void paint(Canvas canvas, Size size) {
